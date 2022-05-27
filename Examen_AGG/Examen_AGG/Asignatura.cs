@@ -24,32 +24,32 @@ class Asignatura
     private double nota_Trimestre3;
     private double nota_Final;
 
-    public string CodigodelaAsignatura
+    public string CodigoAsignatura
     {
         get => cod_Asignatura;
         set => cod_Asignatura = value;
     }
-    public string NombredelaAsignatura
+    public string NombreAsignatura
     {
         get => nombre_Asignatura;
         set => nombre_Asignatura = value;
     }
-    public double NotadelPrimertrimestre
+    public double Notatrimestre1
     {
         get => nota_Trimestre1;
         set => nota_Trimestre1 = value;
     }
-    public double NotadelSegungoTrimestre
+    public double NotaTrimestre2
     {
         get => nota_Trimestre2;
         set => nota_Trimestre2 = value;
     }
-    public double NotadelTercerTrimestre
+    public double NotaTrimestre3
     {
         get => nota_Trimestre3;
         set => nota_Trimestre3 = value;
     }
-    public double NotaFinaldelCurso
+    public double NotaFinal
     {
         get => nota_Final;
         set => nota_Final = value;
